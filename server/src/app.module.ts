@@ -12,9 +12,10 @@ import { GradingModule } from './grading/grading.module';
 import { CalendarModule } from './calendar/calendar.module';
 import { AcademicModule } from './academic/academic.module';
 import { SyncModule } from './sync/sync.module';
+import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
-  imports: [AuthModule, UsersModule, ClassesModule, CoursesModule, TasksModule, NotesModule, FilesModule, GradingModule, CalendarModule, AcademicModule, SyncModule],
+  imports: [AuthModule, UsersModule, ClassesModule, CoursesModule, TasksModule, NotesModule, FilesModule, GradingModule, CalendarModule, AcademicModule, SyncModule, PrismaModule],
   controllers: [AppController],
   providers: [AppService],
 })
