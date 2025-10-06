@@ -4,9 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-OpenStudent - A new project repository.
+OpenStudent 
 
-**Status**: This repository is currently empty. This file will be updated once the project structure and codebase are established.
+File commits should not be done after every session after Every singe file change there should be a commit.
 
 ## Getting Started
 
