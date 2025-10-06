@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Initialize OpenStudent project foundation\n\nSession 1: Project Foundation & Planning\n\nFoundation files:\n- Git repository initialization with proper configuration\n- Comprehensive .gitignore for Node.js, Docker, and mobile development\n- Production-quality README.md with architecture overview\n- Complete .env.example with all configuration options\n- Docker Compose files for development and production environments\n  - PostgreSQL 16.3-alpine\n  - Redis 7.2.5-alpine  \n  - MinIO RELEASE.2024-07-11T18-01-28Z\n  - NestJS API service container\n  - Next.js web service container\n\nDocumentation:\n- CLAUDE.md: Comprehensive PRD and project specification\n- PROJECT_PROGRESS.md: Detailed progress tracking across sessions\n  - 10 implementation phases defined\n  - Task breakdown for each phase\n  - Session notes and decision log\n  - Next session planning\n\nStrategic Planning:\n- Sequential thinking analysis (10-step comprehensive planning)\n- Complete architecture breakdown\n- Database schema design (15+ models)\n- Authentication strategy (JWT + Argon2 + RBAC)\n- Module structure planning\n- Testing and CI/CD strategy\n\nStatus: Foundation complete (8% overall progress)\nNext: Backend initialization with NestJS CLI\n\n🤖 Generated with Claude Code\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
